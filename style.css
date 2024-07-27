@@ -1,0 +1,230 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #dcf6e4;
+
+}
+
+ .container-class{
+
+    width: 33rem;        
+
+    padding-left: 3rem;
+
+    padding-right: 3rem;
+
+    background-color: #fff;
+
+    border-radius: 2rem;
+
+    padding-top: 2rem;
+
+    padding-bottom: 2rem;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+} 
+
+.listHead {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+
+    
+
+}
+
+h2{
+
+    font-size: 1.85rem;
+
+    font-weight: 900;
+
+    color: #0f0b84;
+
+}
+
+.listHead i{
+
+    
+
+    margin-left: 15rem;
+
+    font-size: 2rem;
+
+}
+
+.addTask{
+
+    display: flex;
+
+    /* align-items: center; */
+
+    padding: 2px;
+
+    border: 2px solid black;
+
+    border-radius: 2rem;
+
+    width: 100%;
+
+    justify-content: center;
+
+    height: 3rem;
+}
+
+.addTask input{
+
+    padding-left: 1rem;
+
+    width: 90%;
+
+    height: 2.75rem;
+
+    border-radius: 3rem;
+
+    border: none;
+
+    outline: none;
+
+    color: #0f0b84;
+
+    font-size: 1.2rem;
+}
+
+.addTask input::placeholder{
+
+    color: #0f0b84;
+
+}
+
+#addButton{
+
+    border: none;
+
+    text-decoration: none;
+
+    background-color: #0f0b84;
+
+    border-radius: 4rem;
+
+    width: 30%;
+
+    color: white;
+
+    font-size: 1.2rem;
+
+}
+
+.taskItems {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 2rem;
+
+    color: #0f0b84;
+
+    border-radius: 3rem;    
+
+}
+
+.taskItems p {
+    padding-left: 1rem;
+
+    width: 80%;
+
+    height: 2.75rem;
+
+    border-radius: 3rem;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 1.5rem;
+
+    text-decoration: none;
+    font-weight: 650;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.doneButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+
+    color:#fff;
+
+    outline: none;
+
+    border-radius: 50%;
+
+    width: 1.9rem;
+
+    font-weight: 900;
+
+    margin-left: 0.7rem;
+
+    border: none;
+
+}
+
+.doneButton i{
+
+    font-size: 1.95rem;
+
+    border-radius: 50%;
+
+    border: 0.15rem solid #0f0b84;
+    background-color: #0f0b84;
+
+}
+
+.removeButton {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+    color:#0f0b84;
+
+    outline: none;
+
+    border-radius: 50%;
+
+    width: 1.5rem;
+
+    border: none;
+
+    font-weight: 900;
+
+    margin-right: 0.7rem;
+
+}
